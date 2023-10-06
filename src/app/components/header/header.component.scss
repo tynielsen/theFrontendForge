@@ -1,0 +1,25 @@
+#branding {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 142px;
+
+  a {
+    display: block;
+    align-self: start;
+  }
+
+  h1 {
+    align-self: end;
+    color: #000000;
+    margin-left: -50px;
+    text-shadow: 0 0 2px #29f9de, 0 0 16px #29f9de, -1px -1px 48px #29f9de, 1px 1px 48px #29f9de;
+
+    span {
+      display: block;
+      font-size: 1.25rem;
+    }
+  }
+}
+
