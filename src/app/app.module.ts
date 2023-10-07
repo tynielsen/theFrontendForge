@@ -6,6 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NavComponent } from './components/nav/nav.component';
+
+/** main content sections */
 import { AboutSectionComponent } from './components/about-section/about-section.component';
 import { ContactSectionComponent } from './components/contact-section/contact-section.component';
 import { PortfolioSectionComponent } from './components/portfolio-section/portfolio-section.component';
@@ -16,19 +18,19 @@ import { TerminalSectionComponent } from './components/terminal-section/terminal
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent,
-    HeaderComponent,
-    AboutSectionComponent,
-    PortfolioSectionComponent,
     FooterComponent,
+    HeaderComponent,
+    NavComponent,
+    AboutSectionComponent,
     ContactSectionComponent,
-    ResourcesSectionComponent,
+    PortfolioSectionComponent,
     ProjectsSectionComponent,
+    ResourcesSectionComponent,
     TerminalSectionComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

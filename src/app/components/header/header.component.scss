@@ -12,9 +12,9 @@
 
   h1 {
     align-self: end;
-    color: #000000;
+    color: var(--black);
     margin-left: -50px;
-    text-shadow: 0 0 2px #29f9de, 0 0 16px #29f9de, -1px -1px 48px #29f9de, 1px 1px 48px #29f9de;
+    text-shadow: 0 0 2px var(--orange), 0 0 16px var(--orange), -1px -1px 48px var(--orange), 1px 1px 48px var(--orange);
 
     span {
       display: block;
