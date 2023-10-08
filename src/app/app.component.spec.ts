@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'fef-website'`, () => {
+  it(`should have as title 'theFrontendForge'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('fef-website');
+    expect(app.title).toEqual('theFrontendForge');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('fef-website app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('theFrontendForge app is running!');
   });
 });
