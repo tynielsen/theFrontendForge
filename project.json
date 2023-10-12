@@ -89,7 +89,15 @@
         "inlineStyleLanguage": "scss",
         "assets": [
           "src/favicon.ico",
-          "src/assets"
+          "src/assets",
+          "src/assets/images/background-img.png",
+          "src/assets/images/bg-content.png",
+          "src/assets/images/bg-img-cobwebs.png",
+          "src/assets/images/btn-about.png",
+          "src/assets/images/btn-contact.png",
+          "src/assets/images/btn-work.png",
+          "src/assets/images/logo-black-rabbit.png",
+          "src/assets/images/stitches-sprite.png"
         ],
         "styles": [
           "src/styles.scss"
